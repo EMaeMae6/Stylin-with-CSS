@@ -5,8 +5,80 @@
   
 <head> 
         <meta name="viewport" content="width=device-width"> 
-        <title>My First GitHub Page</title>
+        <title>Stylin' With CSS</title>
         <style>
+          https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap
+          html{
+            background-color: #ccc;
+          }
+
+          body{
+            font-family:'Courier New';
+            max-width:960px;
+            width:90%;
+            background-color: #fff;
+            margin:auto;
+            padding:1%;
+          }
+
+          .page-header{
+            font-family:'Inknut Antiqua',serif;
+            background-color: lightpink;
+            text-align:center;
+            text-shadow: 4px 4px 4px #aaa;
+          }
+            
+        
+
+                    /* start nav rules */
+          nav{
+            text-align:center; /* centers the nav */
+          }
+
+
+          nav a{
+            color:#000; /* font color is black */
+          }
+
+
+          nav ul {
+            list-style:none; /* removes the bullets */
+          }
+          nav li
+          {
+            display:inline-block; /* makes <li> horizontal, but able to declare margins */
+            margin:0 2%; /* margin left-right, gets smaller as necessary */
+          }
+          nav a:hover{
+            text-decoration: none; /* default underline goes away on hover */
+          }
+          /* end nav rules */
+
+
+          footer{
+            text-align:center;
+            clear:both;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
              table.my-table {
          border-collapse: collapse;
        }
@@ -43,7 +115,16 @@
         </style>
   </head> 
   <body>
-    <h1>My First GitHub Page</h1>
+    <h1 class="page-header">Stylin' With CSS</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <li><a href="#">Link 4</a></li>
+        <li><a href="#">Link 5</a></li>
+      </ul>
+    </nav>
     <p>Insert something smart here</p>
     <p>Insert something smarter here</p>
     <p>Insert something smart here</p>
@@ -61,34 +142,33 @@
     </div>
     <div>extra words here<img src="https://picsum.photos/200/300">double extra words</div>
     <div>Pictures provided by <a href="https://picsum.photos/" target="_blank">Lorem Picsum</a></div>
-    <p>Here is how you use the <strong>strong</strong> tag.</p>
-  </body> 
-  <p>Here is how you use the <em>em</em> tag.</p>
-  </body> 
-  <p>Here is how you use the <strike>strike</strike> tag.</p>
-  <div>Help! I'm in the div!<span style="background-color:yellow">Oh no! I'm stuck in the span now!</span></div>
-  <table class="my-table">
-    <tr>
-      <th>First Name</th>
-      <th>Last Name</th>
-      <th>Email</th>
-    </tr>
-    <tr>
-      <td>Tahlulah</td>
-      <td>Bell</td>
-      <td>catsmeow16@example.com</td>
-    </tr>
+    <p>Here is how you use the <strong>strong</strong> tag.</p> 
+    <p>Here is how you use the <em>em</em> tag.</p>
+    <p>Here is how you use the <strike>strike</strike> tag.</p>
+    <div>Help! I'm in the div!<span style="background-color:yellow">Oh no! I'm stuck in the span now!</span></div>
+    <table class="my-table">
       <tr>
-      <td>Ellie</td>
-      <td>ChatGPT</td>
-      <td>elliegurl@example.com</td>
-    </tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+      </tr>
       <tr>
-      <td>Hobbes</td>
-      <td>Hicks</td>
-      <td>grumpyseal@example.com</td>
-    </tr>
-  </table>
+        <td>Tahlulah</td>
+        <td>Bell</td>
+        <td>catsmeow16@example.com</td>
+      </tr>
+      <tr>
+        <td>Ellie</td>
+        <td>ChatGPT</td>
+        <td>elliegurl@example.com</td>
+      </tr>
+        <tr>
+        <td>Hobbes</td>
+        <td>Hicks</td>
+        <td>grumpyseal@example.com</td>
+      </tr>
+    </table>
+    <footer>Copyright &copy; 2023</footer>
   </body> 
 
 
